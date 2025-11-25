@@ -1,0 +1,767 @@
+header {
+    background: linear-gradient(90deg, #6A9159 19.23%, #99A0C8 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-basis: 100%;
+    font-size: 18pt;
+    color: #11221f;
+    font-family: "Merriweather Sans";
+    margin: 0;
+}
+header ul li a {
+    color:#11221F;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+header h1 { 
+    background: linear-gradient(90deg, #305321 8.17%, #49507B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Merriweather";
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 48.8px;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    text-align: center;
+    margin: auto;
+}
+header img {
+    padding: 1rem;
+}
+body {
+    background-image: url("Photos/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}  
+.AABody {
+    background-image: url("Photos/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-position: center;
+}  
+main {
+    background-color: #F6F8F6;
+    max-width: 1088px;
+    margin: 0 auto;
+}
+header ul a {
+        padding: 25px 0;
+        color: rgb(30, 54, 30);
+}
+header ul a:hover {
+    transition: background-color 300ms ease-in-out;
+    background-color: #ecf1eabf;
+    border-radius: 10px;
+}
+header ul a:active {
+    background-color: #cad0c8bf;
+}
+.FaithForward{
+    color: #5E679D;
+    font-family: "Merriweather";
+    font-size: 36px;
+    font-weight: 700;
+    flex-shrink: 0;
+    padding: 30px 0 0 0;
+    width: 634px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+.FaithForward{
+    color: #305321;
+    font-family: "Merriweather";
+    font-size: 36px;
+    font-weight: 700;
+    flex-shrink: 0;
+    padding: 30px 0 0 0;
+    width: 634px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+.Opener {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.OpenText {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    margin: 10px auto 10px 20px;
+}
+.Opener img {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    object-fit: none;
+}
+.Open {
+    font-family: "Merriweather";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; 
+    width: 550px;
+    flex-shrink: 0;
+}
+.Emergency {
+    background:#254019;
+    color: white;
+    width: 1088px;
+    flex-shrink: 0;
+    padding-bottom: 10px;
+}
+.Emergency h2 {
+    font-size: 50px;
+    font-family: "Merriweather";
+    margin: 0 30px;
+    text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.03%;
+}
+.Emergency h3 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Merriweather Sans";
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2.88px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    margin: 15px;
+    text-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.HeadEvent {
+    color: #000;
+    text-align: center; 
+    font-family: "Merriweather";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    margin: 0 auto;
+    flex-basis: 100%;
+    padding: 50px 0 30px 0;
+}
+.Event {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    gap: 15px;
+}
+.EventAA {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    gap: 15px;
+}
+.EventCard {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    background: #44752E;
+    color: white;
+    font-family: "Merriweather";
+    text-align: center;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+    margin: 0;
+}
+.EventCard h2 {
+    line-height: 1;
+    padding: 0 1rem;
+    text-shadow: 4px 4px 4.5px rgba(0, 0, 0, 0.25);
+    font-family: "Merriweather";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.EventCard p {
+    padding: 0 1rem;
+    margin: 0 0 1rem;
+    flex-grow: 1;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Merriweather";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+}
+.EventCard button {
+    margin: 0 1rem 1rem;
+}
+.EventPic {
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+.EventCard .button{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+}
+.EventCard .button:hover {
+    transition: background-color 150ms ease-in-out;
+    background-color: #305321bf;
+    border-radius: 10px;
+}
+.EventAA .button:hover {
+    transition: background-color 150ms ease-in-out;
+    background-color: #49507bbf;
+    border-radius: 10px;
+}
+.GreenHead {
+    font-size: 50px;
+    font-family: "Merriweather";
+    margin: 0 30px;
+    color: #3E6A2A;
+    text-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.03%;
+}
+.PurpleHead {
+    font-size: 50px;
+    font-family: "Merriweather";
+    margin: 0 30px;
+    color: #5e679d;
+    text-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.03%;
+}
+.Location {
+    flex-shrink: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 0;
+    justify-content: space-evenly;
+}
+.Locbox {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #D3E0D6 0%, #BFD2C3 100%);
+    border-radius: 30px;
+    align-items: center;
+    width: 42%;
+}
+.Locbox p {
+    margin: 0 25px;
+    font-family: "Merriweather Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    flex-grow: 1;
+}
+.LocboxAA {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, #dbdde7 0%, #cacddb 100%);
+    border-radius: 30px;
+    align-items: center;
+    width: 42%;
+}
+.LocboxAA p {
+    margin: 0 25px;
+    font-family: "Merriweather Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    flex-grow: 1;
+}
+.Location img {
+    width: 141px;
+    flex-shrink: 0;
+    aspect-ratio: 141/106;
+    border-radius: 17px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin: 15px 30px;
+}
+.GreenBar {
+    background: #699158;
+    width: 1088px;
+    height: 58px;
+    flex-shrink: 0;
+}
+.PurpleBar {
+    background: #858dbd;
+    width: 1088px;
+    height: 58px;
+    flex-shrink: 0;
+}
+.Test{
+    background: #D3E0D6
+}
+.TealHead {
+    font-size: 50px;
+    font-family: "Merriweather";
+    margin: 0 30px;
+    color: #254B43;
+    text-shadow: 0 4px 2px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 122.03%;
+}
+.Test h2 {
+    padding: 10px 0 0 0;
+}
+.Test1 svg {
+    padding-right: 10px
+}
+.Test1 {
+    display: flex;
+    text-align: left;
+    margin: 0 0 0 20px;
+    align-items: center;
+}
+.Test2 {
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    margin: 0 20px 0 0;
+    align-items: center;
+}
+.Test p {
+    max-width: 60ch;
+}
+.Test2 svg {
+    padding-left: 10px;
+    width: 75px;
+}
+.BookCall{
+    text-align: center;
+    color: #000;
+    font-family: "Merriweather Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 122.03%;
+}
+.BookStyle {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: end;
+    text-align: center;
+    font-family: "Merriweather Sans";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 122.03%;
+    margin: 10px;
+    flex-basis: 0;
+}
+.BookStyle img {
+    box-shadow: 15px 15px 0 #254019;
+}
+.BStyle1 {
+    flex-grow: 1;
+    max-width: 30ch;
+}
+.BStyle2 {
+    flex-grow: 1;
+    max-width: 30ch;
+}
+.Book button:hover {
+    transition: background-color 200ms ease-in-out;
+    background-color: #3e6a2a;
+}
+.Book button:active {
+    background-color: #254019;
+}
+.Book button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #699158;
+    color: white;
+    border-color: transparent;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.Book a {
+    text-decoration: none;
+    display: inline-block;
+}
+.BookAA button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #858dbd;
+    color: white;
+    border-color: transparent;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.BookAA button:hover {
+    transition: background-color 200ms ease-in-out;
+    background-color: #6771ad;
+}
+.BookAA button:active {
+    background-color: #49507b;
+}
+.BookAA a {
+    text-decoration: none;
+    display: inline-block;
+}
+footer {
+    background-image: url(Photos/FFFooter.png),
+    linear-gradient(90deg, #699158 20%, #465E3D 100%);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #699158;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100%;
+}
+footer h2 {
+    display: flex;
+    width: 1418px;
+    height: 240px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: "Merriweather";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 61px;
+    background: linear-gradient(90deg, #3E6A2A 1.44%, #305321 43.27%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 20px 20px;
+}
+.QuickInfo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    padding: 10px 0 0 10px;
+}
+.QuickInfo svg {
+    flex-shrink: 0;
+    margin-left: 10px
+}
+.QuickInfo p {
+    margin: none;
+    color: white;
+    flex-shrink: 0;
+    font-family: "Merriweather Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+.Call {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.MainLoc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 500px
+}
+.FootButton {
+    margin: 10px;
+    max-width: 30%;
+}
+.PicButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 10px;
+}
+.FootButton button {
+    padding: 3px 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #728576;
+    background: #F0F1F7;
+    color: #728576;
+    font-family: "Merriweather Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.AboveCal {
+   background-color: #92AB97;
+   display: flex;
+   margin-bottom: 0;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px 50px 0 0;
+   height: auto;
+}
+.AboveCal h1 {
+    margin: 20px;
+    color: #000;
+    text-align: center;
+    text-shadow: 3px 3px 3.3px rgba(255, 255, 255, 0.25);
+    font-family: "Merriweather";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    padding: 50px;
+}
+.BehindCal { 
+    display: flex;
+    flex-wrap: wrap;
+    background: #E2EAE3;
+    margin-top: 0;
+}
+.BehindCal p {
+    color: #000;
+    font-family: "Merriweather";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 122.03%;
+    padding: 0 75px 0 75px;
+}
+.Cal {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 30px 125px 125px 125px 125px 125px 125px;
+    color: black;
+    border: 1px black solid;
+    background-color: #F0F1F7;
+    width: 965.603px;
+    height: auto;
+    border-radius: 75px 75px 0 0;
+    margin-bottom: 30px;
+}
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    color: #000;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px; 
+}
+.num {
+    border: 1px black solid;
+    padding: 5px;
+}
+.date {
+    display: flex;
+    color: #000;
+    text-align: right;
+    font-family: "Merriweather";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+.event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    text-align: center;
+    color: #11221F;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px; 
+}
+.month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/8;
+    text-align: center;
+    border-bottom: 1px black solid;
+    color: #305321;
+    text-align: center;
+    font-family: "Merriweather";
+    font-size: 55px;
+    font-style: oblique;
+    font-weight: 900;
+    line-height: 19px;
+}
+.AAHeader {
+    background: linear-gradient(90deg, #98A0C5 19.23%, #699158 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.AAHeader ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-basis: 100%;
+    font-size: 18pt;
+    color: #11221f;
+    font-family: "Merriweather Sans";
+    margin: 0;
+}
+.AAHeader ul li a {
+    color:#11221F;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.AAHeader h1 { 
+    background: linear-gradient(90deg, #49507B 25%, #305321 91.83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Merriweather";
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: 48.8px;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    text-align: center;
+    margin: auto;
+}
+.AAFooter {
+    background-image: url(Photos/AAFooter.png),
+    linear-gradient(90deg, rgb(153, 160, 200) 0%, #6771AD 100%);
+    margin: 0;
+    width: 100%;
+}
+.AAFooter h2 {
+    background: linear-gradient(90deg, #6771AD 12.5%, #2a2e47 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 0 rgba(153, 160, 200, 0.3);
+}
+.AAFooter .FootButton button {
+    border: 1px solid #6771ad;
+    background: #f0f1f7;
+    color: #6771ad;
+}
+.AAFooter .FootButton button:hover {
+        transition: background-color 200ms ease-in-out;
+        background-color: #d0d3e6;
+}
+.FootButton button:hover {
+        transition: background-color 200ms ease-in-out;
+        background-color: #d3e0d6;
+}
+.VolunteerInfo {
+    margin: 0 200px;
+}
+.VolunteerInfo h2 {
+    background: linear-gradient(90deg, #699158 0%, #98A0C5 100%);
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Merriweather Sans";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 40px 40px 0 0;
+    margin: 0;
+}
+.VolInfo {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0 25px 0 20px;
+    background-color: #FFF;
+    margin: 0;
+}
+.VolInfo p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.VolInfo input {
+    border: transparent;
+    width: 100%;
+    font-size: 16px;
+}
+.InfoBox input {
+    background: #D9D9D9;
+    height: 25px;
+}
+.Check {
+    display: flex;
+    align-items: center;
+}
+.Check p {
+    margin:0 20px 0 10px;
+}
+.CheckBox input {
+    background: #D9D9D9;
+    width: 25px;
+    height: 25px;
+    border: transparent;
+    accent-color: green;
+}
+.Question textarea {
+    width: 100%;
+    background: #D9D9D9;
+    margin-bottom: 10px;
+    border: transparent;
+}
+.Submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.VolInfo button {
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #3e6a2a 0%, #5e679d 100%);
+    width: auto;
+    border: transparent;
+    color: #FFF;
+    font-family: "Merriweather Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.GiveContent p {
+    padding: 0 10px 0 20px;
+}
+.Services p {
+    padding-left: 10px;
+}
