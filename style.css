@@ -384,15 +384,16 @@ header ul a:active {
     flex-grow: 1;
     max-width: 30ch;
 }
-.Book button:hover {
+.Book a:hover {
     transition: background-color 200ms ease-in-out;
     background-color: #3e6a2a;
 }
-.Book button:active {
+.Book a:active {
     background-color: #254019;
 }
-.Book button {
+.Book a {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -402,12 +403,10 @@ header ul a:active {
     border-color: transparent;
     margin: auto;
     margin-bottom: 10px;
-}
-.Book a {
     text-decoration: none;
-    display: inline-block;
+    width: 40%
 }
-.BookAA button {
+.BookAA a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -418,17 +417,15 @@ header ul a:active {
     border-color: transparent;
     margin: auto;
     margin-bottom: 10px;
+    text-decoration: none;
+    width: 40%
 }
-.BookAA button:hover {
+.BookAA a:hover {
     transition: background-color 200ms ease-in-out;
     background-color: #6771ad;
 }
-.BookAA button:active {
+.BookAA a:active {
     background-color: #49507b;
-}
-.BookAA a {
-    text-decoration: none;
-    display: inline-block;
 }
 footer {
     background-image: url(Photos/FFFooter.png),
@@ -500,7 +497,7 @@ footer h2 {
     justify-content: space-evenly;
     padding-left: 10px;
 }
-.FootButton button {
+.FootButton a {
     padding: 3px 10px;
     display: flex;
     gap: 5px;
@@ -513,6 +510,32 @@ footer h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+.AAFooter {
+    background-image: url(Photos/AAFooter.png),
+    linear-gradient(90deg, rgb(153, 160, 200) 0%, #6771AD 100%);
+    margin: 0;
+    width: 100%;
+}
+.AAFooter h2 {
+    background: linear-gradient(90deg, #6771AD 12.5%, #2a2e47 70%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 0 rgba(153, 160, 200, 0.3);
+}
+.AAFooter .FootButton a {
+    border: 1px solid #6771ad;
+    background: #f0f1f7;
+    color: #6771ad;
+}
+.AAFooter .FootButton a:hover {
+        transition: background-color 200ms ease-in-out;
+        background-color: #d0d3e6;
+}
+.FootButton a:hover {
+        transition: background-color 200ms ease-in-out;
+        background-color: #d3e0d6;
 }
 .AboveCal {
    background-color: #92AB97;
@@ -657,32 +680,6 @@ footer h2 {
     text-align: center;
     margin: auto;
 }
-.AAFooter {
-    background-image: url(Photos/AAFooter.png),
-    linear-gradient(90deg, rgb(153, 160, 200) 0%, #6771AD 100%);
-    margin: 0;
-    width: 100%;
-}
-.AAFooter h2 {
-    background: linear-gradient(90deg, #6771AD 12.5%, #2a2e47 70%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 3px 3px 0 rgba(153, 160, 200, 0.3);
-}
-.AAFooter .FootButton button {
-    border: 1px solid #6771ad;
-    background: #f0f1f7;
-    color: #6771ad;
-}
-.AAFooter .FootButton button:hover {
-        transition: background-color 200ms ease-in-out;
-        background-color: #d0d3e6;
-}
-.FootButton button:hover {
-        transition: background-color 200ms ease-in-out;
-        background-color: #d3e0d6;
-}
 .VolunteerInfo {
     margin: 0 200px;
 }
@@ -758,6 +755,14 @@ footer h2 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.VolInfo button:hover {
+    transition: background-color 300ms ease-in-out;
+    background: linear-gradient(90deg, #73c44e 0%, #8795e4 100%);
+}
+.VolInfo button:active {
+    background: linear-gradient(90deg, #133503 0%, #020b36 100%);
+
 }
 .GiveContent p {
     padding: 0 10px 0 20px;
